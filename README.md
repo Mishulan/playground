@@ -7,9 +7,7 @@ Link: https://brew.sh/
 brew upgrade
 ```
 Brew install location:
-> /opt/homebrew/Cellar
-Brew install location Cask:
-> /opt/homebrew/Caskroom
+> /opt/homebrew/Cellar & /opt/homebrew/Caskroom
 
 ## Bourne Again SHell
 ```
