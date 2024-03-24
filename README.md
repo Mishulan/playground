@@ -5,11 +5,12 @@ Link: https://brew.sh/
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
+> brew upgrade
 
-## iTerm2
-Link: https://www.iterm2.com/ 
+## Alacritty
+Link: https://alacritty.org/
 ```
-brew install --cask iterm2
+brew install --cask alacritty
 ```
 > You can now swithch to iTerm2 and continue from there
 
