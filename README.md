@@ -6,8 +6,8 @@ Link: https://brew.sh/
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew upgrade
 ```
-Brew install location: >/opt/homebrew/Cellar
-Brew install location Cask: >/opt/homebrew/Caskroom
+Brew install location: > /opt/homebrew/Cellar
+Brew install location Cask: > /opt/homebrew/Caskroom
 
 ## Bourne Again SHell
 ```
