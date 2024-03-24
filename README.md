@@ -10,8 +10,9 @@ Brew installed packages location:
 > /opt/homebrew/Cellar & /opt/homebrew/Caskroom
 
 ## Bourne Again SHell
+Link: https://www.gnu.org/software/bash/
 ```
-https://www.gnu.org/software/bash/
+brew install bash
 ```
 
 ## Alacritty
