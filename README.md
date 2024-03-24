@@ -14,6 +14,10 @@ Link: https://www.gnu.org/software/bash/
 ```
 brew install bash
 ```
+> To see where Homebrew installed Bash, run the following command:
+```
+ls "$(brew --prefix)/bin/bash" 
+```
 
 ## Alacritty
 Link: https://alacritty.org/
