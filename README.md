@@ -4,15 +4,29 @@
 Link: https://brew.sh/
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew upgrade
 ```
-> brew upgrade
+Brew install location: >/opt/homebrew/Cellar
+Brew install location Cask: >/opt/homebrew/Caskroom
+
+## Bourne Again SHell
+```
+https://www.gnu.org/software/bash/
+```
 
 ## Alacritty
 Link: https://alacritty.org/
+Themes: https://github.com/alacritty/alacritty-theme
 ```
 brew install --cask alacritty
 ```
-> You can now swithch to iTerm2 and continue from there
+> You can now swithch to Alacritty and continue from there
+
+## Nerd font
+Link: https://gist.github.com/davidteren/898f2dcccd42d9f8680ec69a3a5d350e / https://www.nerdfonts.com/
+```
+brew tap homebrew/cask-fonts && brew install --cask font-jetbrains-mono-nerd-font
+```
 
 ## Rectangle
 Link: https://github.com/rxhanson/Rectangle
