@@ -10,7 +10,7 @@ Brew installed packages location:
 > /opt/homebrew/Cellar & /opt/homebrew/Caskroom
 
 ## Bourne Again SHell
-Link: https://www.gnu.org/software/bash/
+Link: https://www.gnu.org/software/bash/ \
 Installation: https://dev.to/bphogan/use-modern-bash-shell-on-macos-22a6
 ```
 brew install bash
