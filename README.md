@@ -34,6 +34,14 @@ Link: https://gist.github.com/davidteren/898f2dcccd42d9f8680ec69a3a5d350e / http
 brew tap homebrew/cask-fonts && brew install --cask font-jetbrains-mono-nerd-font
 ```
 
+## Starship prompt
+Link: https://starship.rs/
+```
+brew install starship
+# ~/.bashrc
+eval "$(starship init bash)"
+```
+
 ## Rectangle
 Link: https://github.com/rxhanson/Rectangle
 ```
