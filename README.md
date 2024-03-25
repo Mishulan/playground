@@ -14,6 +14,8 @@ Link: https://www.gnu.org/software/bash/ \
 Installation: https://dev.to/bphogan/use-modern-bash-shell-on-macos-22a6
 ```
 brew install bash
+echo "$(brew --prefix)/bin/bash" | sudo tee -a /etc/shells;
+chsh -s "$(brew --prefix)/bin/bash"
 ```
 > To see where Homebrew installed Bash, run the following command:
 ```
@@ -25,6 +27,13 @@ Link: https://alacritty.org/
 Themes: https://github.com/alacritty/alacritty-theme
 ```
 brew install --cask alacritty
+# We use Alacritty's default Linux config directory as our storage location here.
+mkdir -p ~/.config/alacritty/themes
+git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/themes
+alacritty.toml
+import = [
+    "~/.config/alacritty/themes/themes/{theme}.toml"
+]
 ```
 > You can now swithch to Alacritty and continue from there
 
